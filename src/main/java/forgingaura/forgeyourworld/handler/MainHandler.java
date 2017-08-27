@@ -4,11 +4,11 @@ public class MainHandler {
 	
 	public static final String MODID = "forgeyourworld";
 	public static final String NAME = "Forge Your World";
-	public static final String VERSION = "PreAlpha0.0.12-Stable";
+	public static final String VERSION = "PreAlpha0.0.13-Stable";
 	public static final String ACCEPTED_VERSION = "[1.10.2]";
 	public static final String CLIENT_PROXY_CLASSE = "forgingaura.forgeyourworld.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASSE = "forgingaura.forgeyourworld.proxy.ServerProxy";
-	public static final String VERSION_CHECKER_URL = "https://raw.githubusercontent.com/AlasDiablo/Forge-Your-World/master/update.json";
+	public static final String VERSION_CHECKER_URL = "https://raw.githubusercontent.com/ForgingAura/Forge-Your-World/master/update.json";
 	
 	public static enum FYWItems {
 		
