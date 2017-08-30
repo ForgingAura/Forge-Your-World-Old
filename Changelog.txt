@@ -1,4 +1,7 @@
 -PreAlpha0.0.13-stable
+fix craft (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.13-stable
 add Granite Brick + Mossy + Cracked + Carved and Slab (alasdiablo)
 ------------------------------------------------------------------
 -PreAlpha0.0.12-stable

@@ -1,8 +1,8 @@
 {
 	"name": "Forge Your World",
-	"version": "PreAlpha0.0.13-Stable",
+	"version": "PreAlpha0.0.13.1-Stable",
 	"changelog": [
-		"add Granite Brick + Mossy + Cracked + Carved and Slab"
+		"add Granite Brick + Mossy + Cracked + Carved and Slab", "fix craft(in 0.0.13 does exite)"
 	],
 	"download": "https://minecraft.curseforge.com/projects/forge-your-world"
 }

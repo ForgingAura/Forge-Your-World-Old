@@ -42,6 +42,11 @@ public class RecipeHandler {
 		GameRegistry.addShapelessRecipe(new ItemStack(BlocksHandler.dioritebrickmossy), new Object[] { Blocks.VINE, BlocksHandler.dioritebrick });
 		GameRegistry.addShapedRecipe(new ItemStack(BlocksHandler.diorite_slab_half, 6), "AAA", 'A', new ItemStack(BlocksHandler.dioritebrick));
 		GameRegistry.addShapedRecipe(new ItemStack(BlocksHandler.dioritebrickcarved), "A", "A", 'A', new ItemStack(BlocksHandler.diorite_slab_half));
+		GameRegistry.addShapedRecipe(new ItemStack(BlocksHandler.granitebrick), "AA", "AA", 'A', new ItemStack(Blocks.STONE, 1, 2));
+		GameRegistry.addSmelting(new ItemStack(BlocksHandler.granitebrick), new ItemStack(BlocksHandler.granitebrickcracked), 0.1F);
+		GameRegistry.addShapelessRecipe(new ItemStack(BlocksHandler.granitebrickmossy), new Object[] { Blocks.VINE, BlocksHandler.granitebrick });
+		GameRegistry.addShapedRecipe(new ItemStack(BlocksHandler.granite_slab_half, 6), "AAA", 'A', new ItemStack(BlocksHandler.granitebrick));
+		GameRegistry.addShapedRecipe(new ItemStack(BlocksHandler.granitebrickcarved), "A", "A", 'A', new ItemStack(BlocksHandler.granite_slab_half));
 	} 
 
 }
