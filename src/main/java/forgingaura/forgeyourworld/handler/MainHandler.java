@@ -64,7 +64,11 @@ public class MainHandler {
 		DIORITEBRICK("dioritebrick", "DioriteBrick"),
 		DIORITEBRICKCARVED("dioritebrickcarved", "DioriteBrickCarved"),
 		DIORITEBRICKCRACKED("dioritebrickcracked", "DioriteBrickCracked"),
-		DIORITEBRICKMOSSY("dioritebrickmossy", "DioriteBrickMossy");
+		DIORITEBRICKMOSSY("dioritebrickmossy", "DioriteBrickMossy"),
+		GRANITEBRICK("granitebrick", "GraniteBrick"),
+		GRANITEBRICKCARVED("granitebrickcarved", "GraniteBrickCarved"),
+		GRANITEBRICKCRACKED("granitebrickcracked", "GraniteBrickCracked"),
+		GRANITEBRICKMOSSY("GraniteBrickMossy", "GraniteBrickMossy");
 
 		private String unlocalizedName;
 		private String registryName;

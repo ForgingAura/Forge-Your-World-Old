@@ -10,11 +10,11 @@ import net.minecraft.item.ItemStack;
 import java.util.Random;
 
 /**
- * Created by Mami Sabeth on 13/08/2017.
+ * Created by AlasDiablo on 30/08/2017.
  */
-public class SlabDoubleDiorite extends FYWSlab{
+public class SlabDoubleGranite extends FYWSlab{
 
-    public SlabDoubleDiorite(String name, Material materialIn) {
+    public SlabDoubleGranite(String name, Material materialIn) {
         super(name, materialIn);
     }
 
@@ -30,7 +30,7 @@ public class SlabDoubleDiorite extends FYWSlab{
 
     @Override
     public Item getItemDropped(IBlockState state, Random rand, int fortune) {
-        return new ItemStack(BlocksHandler.diorite_slab_half).getItem();
+        return new ItemStack(BlocksHandler.granite_slab_half).getItem();
 
     }
 }

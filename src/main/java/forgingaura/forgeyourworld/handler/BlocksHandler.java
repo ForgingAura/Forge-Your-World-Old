@@ -35,6 +35,12 @@ public class BlocksHandler {
 	public static Block dioritebrickmossy;
 	public static final BlockSlab diorite_slab_half = new SlabHalf("diorite_slab_half", Material.ROCK);
 	public static final BlockSlab diorite_slab_double = new SlabDoubleDiorite("diorite_slab_double", Material.ROCK);
+	public static Block granitebrick;
+	public static Block granitebrickcarved;
+	public static Block granitebrickcracked;
+	public static Block granitebrickmossy;
+	public static final BlockSlab granite_slab_half = new SlabHalf("granite_slab_half", Material.ROCK);
+	public static final BlockSlab granite_slab_double = new SlabDoubleGranite("granite_slab_double", Material.ROCK);
 
 	public static void init() {
 		terilliumore = new TerilliumOre();
@@ -50,6 +56,10 @@ public class BlocksHandler {
 		dioritebrickcarved = new DioriteBrickCarved();
 		dioritebrickcracked = new DioriteBrickCracked();
 		dioritebrickmossy = new DioriteBrickMossy();
+		granitebrick = new GraniteBrick();
+		granitebrickcarved = new GraniteBrickCarved();
+		granitebrickcracked = new GraniteBrickCracked();
+		granitebrickmossy = new GraniteBrickMossy();
 	}
 	
 	public static void register(){
@@ -70,6 +80,12 @@ public class BlocksHandler {
         registerBlock(dioritebrickmossy);
         registerSlabHalf(diorite_slab_half, new ItemSlab(diorite_slab_half, diorite_slab_half, diorite_slab_double));
         registerBlock(diorite_slab_double);
+        registerBlock(granitebrick);
+        registerBlock(granitebrickcarved);
+        registerBlock(granitebrickcracked);
+        registerBlock(granitebrickmossy);
+        registerSlabHalf(granite_slab_half, new ItemSlab(granite_slab_half, granite_slab_half, granite_slab_double));
+        registerBlock(granite_slab_double);
 
 	}
 	
@@ -96,8 +112,12 @@ public class BlocksHandler {
 		registerRender(dioritebrickcracked);
 		registerRender(dioritebrickcracked);
 		registerRender(dioritebrickmossy);
-		registerRender(andesite_slab_half);
 		registerRender(diorite_slab_half);
+		registerRender(granitebrick);
+		registerRender(granitebrickcarved);
+		registerRender(granitebrickcracked);
+		registerRender(granitebrickmossy);
+		registerRender(granite_slab_half);
 	}
 	
 	private static void registerRender(Block block) {
