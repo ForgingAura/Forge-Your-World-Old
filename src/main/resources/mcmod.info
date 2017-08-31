@@ -12,7 +12,7 @@
   "logoFile": "",
   "screenshots": [],
   "useDependencyInformation": true,
-  "requiredMods": ["cjcore"],
-  "dependencies": ["cjcore"]
+  "requiredMods": ["auracore"],
+  "dependencies": ["auracore"]
 }
 ]

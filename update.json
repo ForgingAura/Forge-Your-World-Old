@@ -1,8 +1,8 @@
 {
 	"name": "Forge Your World",
-	"version": "Beta-0.1",
+	"version": "Beta-1.1",
 	"changelog": [
-		"add Mossy + Cracked + Carved and Slab for End Stone Brick", "work on a new description for curse page"
+		"change CJCore by our core mod (AuraCore)"
 	],
 	"download": "https://minecraft.curseforge.com/projects/forge-your-world"
 }
