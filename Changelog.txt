@@ -1,4 +1,11 @@
--PreAlpha0.0.13-stable
+-Beta-0.1
+add Mossy + Cracked + Carved and Slab for End Stone Brick (alasdiablo)
+work on a new description for curse page (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.13.2-stable
+fix 1.11.2 no start (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.13.1-stable
 fix craft (alasdiablo)
 ------------------------------------------------------------------
 -PreAlpha0.0.13-stable

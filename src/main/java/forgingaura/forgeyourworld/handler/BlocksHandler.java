@@ -41,6 +41,11 @@ public class BlocksHandler {
 	public static Block granitebrickmossy;
 	public static final BlockSlab granite_slab_half = new SlabHalf("granite_slab_half", Material.ROCK);
 	public static final BlockSlab granite_slab_double = new SlabDoubleGranite("granite_slab_double", Material.ROCK);
+	public static Block endstonebrickcarved;
+	public static Block endstonebrickcracked;
+	public static Block endstonebrickmossy;
+	public static final BlockSlab endstone_slab_half = new SlabHalf("endstone_slab_half", Material.ROCK);
+	public static final BlockSlab endstone_slab_double = new SlabDoubleEndStone("endstone_slab_double", Material.ROCK);
 
 	public static void init() {
 		terilliumore = new TerilliumOre();
@@ -60,6 +65,9 @@ public class BlocksHandler {
 		granitebrickcarved = new GraniteBrickCarved();
 		granitebrickcracked = new GraniteBrickCracked();
 		granitebrickmossy = new GraniteBrickMossy();
+		endstonebrickcarved = new EndStoneBrickCarved();
+		endstonebrickcracked = new EndStoneBrickCracked();
+		endstonebrickmossy = new EndStoneBrickMossy();
 	}
 	
 	public static void register(){
@@ -86,7 +94,11 @@ public class BlocksHandler {
         registerBlock(granitebrickmossy);
         registerSlabHalf(granite_slab_half, new ItemSlab(granite_slab_half, granite_slab_half, granite_slab_double));
         registerBlock(granite_slab_double);
-
+        registerBlock(endstonebrickcarved);
+        registerBlock(endstonebrickcracked);
+        registerBlock(endstonebrickmossy);
+        registerSlabHalf(endstone_slab_half, new ItemSlab(endstone_slab_half, endstone_slab_half, endstone_slab_double));
+        registerBlock(endstone_slab_double);
 	}
 	
 	private static void registerBlock(Block block) {
@@ -118,6 +130,14 @@ public class BlocksHandler {
 		registerRender(granitebrickcracked);
 		registerRender(granitebrickmossy);
 		registerRender(granite_slab_half);
+		registerRender(endstonebrickcarved);
+		registerRender(endstonebrickcracked);
+		registerRender(endstonebrickmossy);
+		registerRender(endstone_slab_half);
+		registerRender(andesite_slab_double);
+		registerRender(diorite_slab_double);
+		registerRender(granite_slab_double);
+		registerRender(endstone_slab_double);
 	}
 	
 	private static void registerRender(Block block) {

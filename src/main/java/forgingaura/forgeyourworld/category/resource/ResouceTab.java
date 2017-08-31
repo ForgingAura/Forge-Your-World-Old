@@ -3,6 +3,7 @@ package forgingaura.forgeyourworld.category.resource;
 import forgingaura.forgeyourworld.handler.ItemsHandler;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 public class ResouceTab extends CreativeTabs{
 	
@@ -11,8 +12,8 @@ public class ResouceTab extends CreativeTabs{
 	}
 
 	@Override
-	public Item getTabIconItem() {
-		return ItemsHandler.rawterillium;
+	public ItemStack getTabIconItem() {
+		return new ItemStack(ItemsHandler.rawterillium);
 	}
 
 }

@@ -4,6 +4,7 @@ import forgingaura.forgeyourworld.handler.BlocksHandler;
 import forgingaura.forgeyourworld.handler.ItemsHandler;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 public class ThingTab extends CreativeTabs {
 
@@ -12,8 +13,8 @@ public class ThingTab extends CreativeTabs {
 	}
 
 	@Override
-	public Item getTabIconItem() {
-		return Item.getItemFromBlock(BlocksHandler.andesitebrick);
+	public ItemStack getTabIconItem() {
+		return new ItemStack(BlocksHandler.andesitebrick);
 	}
 
 }
