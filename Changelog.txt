@@ -1,4 +1,10 @@
--Beta-0.1
+-Beta-1.2
+change Some code for dependencies (AlasDiablo)
+------------------------------------------------------------------
+-Beta-1.1
+change CJCore by our core mod "AuraCore" (AlasDiablo)
+------------------------------------------------------------------
+-Beta-1.0
 add Mossy + Cracked + Carved and Slab for End Stone Brick (alasdiablo)
 work on a new description for curse page (alasdiablo)
 ------------------------------------------------------------------

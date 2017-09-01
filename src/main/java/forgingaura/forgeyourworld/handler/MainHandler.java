@@ -4,7 +4,7 @@ public class MainHandler {
 	
 	public static final String MODID = "forgeyourworld";
 	public static final String NAME = "Forge Your World";
-	public static final String VERSION = "Beta-1.1";
+	public static final String VERSION = "Beta-1.2";
 	public static final String ACCEPTED_VERSION = "[1.11,1.11.2]";
 	public static final String CLIENT_PROXY_CLASSE = "forgingaura.forgeyourworld.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASSE = "forgingaura.forgeyourworld.proxy.ServerProxy";

@@ -1,8 +1,8 @@
 {
 	"name": "Forge Your World",
-	"version": "Beta-1.1",
+	"version": "Beta-1.2",
 	"changelog": [
-		"change CJCore by our core mod (AuraCore)"
+		"Change some code for dependencies"
 	],
 	"download": "https://minecraft.curseforge.com/projects/forge-your-world"
 }
