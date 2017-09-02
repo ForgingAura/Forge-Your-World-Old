@@ -1,6 +1,6 @@
 package forgingaura.forgeyourworld.proxy;
 
-import forgingaura.forgeyourworld.event.VersionChecker;
+import forgingaura.forgeyourworld.event.UpdateChecker;
 import forgingaura.forgeyourworld.handler.BlocksHandler;
 import forgingaura.forgeyourworld.handler.FuelHandler;
 import forgingaura.forgeyourworld.handler.ItemsHandler;
@@ -32,7 +32,7 @@ public class ClientProxy implements CommonProxy{
 		System.out.println("[Forge Your World/CLIENT]Items Renders Done");
 		BlocksHandler.registerRenders();
 		System.out.println("[Forge Your World/CLIENT]Blocks Renders Done");
-		MinecraftForge.EVENT_BUS.register(new VersionChecker());
+		MinecraftForge.EVENT_BUS.register(new UpdateChecker());
 		System.out.println("[Forge Your World/CLIENT]Update Chercker Done");
 		OreDictinaryHandler.registerOreDictionary();
 		System.out.println("[Forge Your World/CLIENT]Ore Dictionary Done");

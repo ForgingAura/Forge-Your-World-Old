@@ -1,8 +1,8 @@
 {
 	"name": "Forge Your World",
-	"version": "Beta-1.2",
+	"version": "Beta-2.0",
 	"changelog": [
-		"Change some code for dependencies"
+		"Welcome to beta 2.0", "The New Start"
 	],
 	"download": "https://minecraft.curseforge.com/projects/forge-your-world"
 }

@@ -17,7 +17,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = MainHandler.MODID, name = MainHandler.NAME, version = MainHandler.VERSION, acceptedMinecraftVersions = MainHandler.ACCEPTED_VERSION, useMetadata = true, 
-customProperties = { @CustomProperty(k = "useVersionChecker", v = "true") }, dependencies = "required-after:auracore@[1.1,)")
+customProperties = { @CustomProperty(k = "useVersionChecker", v = "true") }, dependencies = "required-after:forgeyourworldcore@[beta-2.0,)")
 public class ForgeYourWorld {
 	
 	@Instance
