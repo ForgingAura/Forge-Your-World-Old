@@ -22,6 +22,26 @@ item.terilliumhoe.name=Terillium Hoe
 item.terilliumaxe.name=Terillium Axe
 item.blazecoal.name=Blaze Coal
 item.kitchenknife.name=Kitchen Knife
+item.woolblackhelmet.name=Black Wool Helmet
+item.woolblackchestplate.name=Black Wool Chest Plate
+item.woolblackleggings.name=Black Wool Leggings
+item.woolblackboots.name=Black Wool Boots
+item.woollightbluehelmet.name=Light Blue Wool Helmet
+item.woollightbluechestplate.name=Light Blue Wool Chest Plate
+item.woollightblueleggings.name=Light Blue Wool Leggings
+item.woollightblueboots.name=Light Blue Wool Boots
+item.woollimehelmet.name=Lime Wool Helmet
+item.woollimechestplate.name=Lime Wool Chest Plate
+item.woollimeleggings.name=Lime Wool Leggings
+item.woollimeboots.name=Lime Wool Boots
+item.woolpinkhelmet.name=Pink Wool Helmet
+item.woolpinkchestplate.name=Pink Wool Chest Plate
+item.woolpinkleggings.name=Pink Wool Leggings
+item.woolpinkboots.name=Pink Wool Boots
+item.woolredhelmet.name=Red Wool Helmet
+item.woolredchestplate.name=Red Wool Chest Plate
+item.woolredleggings.name=Red Wool Leggings
+item.woolredboots.name=Red Wool Boots
 
 //Creative Tab
 itemGroup.tabThings=Forge Your World: Useless Things

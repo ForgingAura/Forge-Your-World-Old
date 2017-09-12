@@ -1,3 +1,13 @@
+-Beta-2.2
+add lime, pink and red wool armor (alasdiablo)
+------------------------------------------------------------------
+-Beta-2.1
+add light blue and black wool armor (alasdiablo)
+------------------------------------------------------------------
+-Beta-2.0
+Welcome to beta 2.0
+The New Start
+------------------------------------------------------------------
 -Beta-1.2
 change Some code for dependencies (AlasDiablo)
 ------------------------------------------------------------------

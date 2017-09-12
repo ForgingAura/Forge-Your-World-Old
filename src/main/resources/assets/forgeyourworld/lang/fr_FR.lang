@@ -22,6 +22,26 @@ item.terilliumhoe.name=Terillium Hoe
 item.terilliumaxe.name=Terillium Axe
 item.blazecoal.name=Charbon de Blaze
 item.kitchenknife.name=Couteau de Cuisine
+item.woolblackhelmet.name=Casque en laine noir
+item.woolblackchestplate.name=Cuirasse en laine noir
+item.woolblackleggings.name=Jambières en laine noir
+item.woolblackboots.name=Bottes en laine noir
+item.woollightbluehelmet.name=Casque en laine bleu clair
+item.woollightbluechestplate.name=Cuirasse en laine bleu clair
+item.woollightblueleggings.name=Jambières en laine bleu clair
+item.woollightblueboots.name=Bottes en laine bleu clair
+item.woollimehelmet.name=Casque en laine Vert Clair
+item.woollimehcestplate.name=Cuirasse en laine Vert Clair
+item.woollimeleggings.name=Jambières en laine Vert Clair
+item.woollimeboots.name=Bottes en laine Vert Clair
+item.woolpinkhelmet.name=Casque en laine Rose
+item.woolpinkchestplate.name=Cuirasse en laine Rose
+item.woolpinkleggings.name=Jambières en laine Rose
+item.woolpinkboots.name=Bottes en laine Rose
+item.woolredhelmet.name=Casque en laine Rouge
+item.woolredchestplate.name=Cuirasse en laine Rouge
+item.woolredleggings.name=Jambières en laine Rouge
+item.woolredboots.name=Bottes en laine Rouge
 
 //Creative Tab
 itemGroup.tabThings=Forge Your World: Choses inutiles

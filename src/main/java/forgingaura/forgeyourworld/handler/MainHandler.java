@@ -4,7 +4,7 @@ public class MainHandler {
 	
 	public static final String MODID = "forgeyourworld";
 	public static final String NAME = "Forge Your World";
-	public static final String VERSION = "Beta-2.0";
+	public static final String VERSION = "Beta-2.2";
 	public static final String ACCEPTED_VERSION = "[1.11,1.11.2]";
 	public static final String CLIENT_PROXY_CLASSE = "forgingaura.forgeyourworld.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASSE = "forgingaura.forgeyourworld.proxy.ServerProxy";
@@ -32,7 +32,27 @@ public class MainHandler {
 		TERILLIUMSHOVEL("terilliumshovel", "TerilliumShovel"),
 		TERILLIUMSWORD("terilliumsword", "TerilliumSword"),
 		BLAZECOAL("blazecoal", "BlazeCoal"),
-		KITCHENKNIFE("kitchenknife", "KitchenKnife");
+		KITCHENKNIFE("kitchenknife", "KitchenKnife"),
+		WOOLBLACKHELMET("woolblackhelmet", "WoolBlackHelmet"),
+		WOOLBLACKCHESTPLATE("woolblackchestplate", "WoolBlackChestPlate"),
+		WOOLBLACKLEGGINGS("woolblackleggings", "WoolBlackLeggings"),
+		WOOLBLACKBOOTS("woolblackboots", "WoolBlackBoots"),
+		WOOLLIGHTBLUHELMET("woollightbluehelmet", "WoolLightBlueHelmet"),
+		WOOLLIGHTBLUECHESTPLATE("woollightbluechestplate", "WoolLightBlueChestPlate"),
+		WOOLLIGHTBLUELEGGINGS("woollightblueleggings", "WoolLightBlueLeggings"),
+		WOOLLIGHTBLUEBOOTS("woollightblueboots", "WoolLightBlueBoots"),
+		WOOLLIMEHELMET("woollimehelmet", "WoolLimeHelmet"),
+		WOOLLIMECHESTPLATE("woollimechestplate", "WoolLimeChestPlate"),
+		WOOLLIMELEGGINGS("woollimeleggings", "WoolLimeLeggings"),
+		WOOLLIMEBOOTS("woollimeboots", "WoolLimeBoots"),
+		WOOLPINKHELMET("woolpinkhelmet", "WoolPinkHelmet"),
+		WOOLPINKCHESTPLATE("woolpinkchestplate", "WoolPinkChestPlate"),
+		WOOLPINKLEGGINGS("woolpinkleggings", "WoolPinkLeggings"),
+		WOOLPINKBOOTS("woolpinkboots", "WoolPinkBoots"),
+		WOOLREDHELMET("woolredhelmet", "WoolRedHelmet"),
+		WOOLREDCHESTPLATE("woolredchestplate", "WoolRedChestPlate"),
+		WOOLREDLEGGINGS("woolredleggings", "WoolRedLeggings"),
+		WOOLREDBOOTS("woolredboots", "WoolRedBoots");
 		
 		private String unlocalizedName;
 		private String registryName;

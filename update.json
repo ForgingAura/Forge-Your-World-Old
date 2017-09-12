@@ -1,8 +1,8 @@
 {
 	"name": "Forge Your World",
-	"version": "Beta-2.0",
+	"version": "Beta-2.2",
 	"changelog": [
-		"Welcome to beta 2.0", "The New Start"
+		"Add black and light blue wool armor in Beta-2.1", "Add Lime Pink and Red wool armor in Beta-2.2"
 	],
 	"download": "https://minecraft.curseforge.com/projects/forge-your-world"
 }

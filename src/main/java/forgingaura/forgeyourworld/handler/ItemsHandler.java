@@ -11,16 +11,7 @@ import forgingaura.forgeyourworld.category.food.Toast;
 import forgingaura.forgeyourworld.category.resource.BlazeCoal;
 import forgingaura.forgeyourworld.category.resource.RawTerillium;
 import forgingaura.forgeyourworld.category.resource.Terillium;
-import forgingaura.forgeyourworld.category.toolarmor.KitchenKnife;
-import forgingaura.forgeyourworld.category.toolarmor.TerilliumAxe;
-import forgingaura.forgeyourworld.category.toolarmor.TerilliumBoots;
-import forgingaura.forgeyourworld.category.toolarmor.TerilliumChestPlate;
-import forgingaura.forgeyourworld.category.toolarmor.TerilliumHelmet;
-import forgingaura.forgeyourworld.category.toolarmor.TerilliumHoe;
-import forgingaura.forgeyourworld.category.toolarmor.TerilliumLeggings;
-import forgingaura.forgeyourworld.category.toolarmor.TerilliumPickaxe;
-import forgingaura.forgeyourworld.category.toolarmor.TerilliumShovel;
-import forgingaura.forgeyourworld.category.toolarmor.TerilliumSword;
+import forgingaura.forgeyourworld.category.toolarmor.*;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.SoundEvents;
@@ -54,6 +45,26 @@ public class ItemsHandler {
 	public static Item terilliumsword;
 	public static Item blazecoal;
 	public static Item kitchenknife;
+	public static Item woolblackhelmet;
+	public static Item woolblackchestplate;
+	public static Item woolblackleggings;
+	public static Item woolblackboots;
+	public static Item woollightbluehelmet;
+	public static Item woollightbluechestplate;
+	public static Item woollightblueleggings;
+	public static Item woollightblueboots;
+	public static Item woollimehelmet;
+	public static Item woollimechestplate;
+	public static Item woollimeleggings;
+	public static Item woollimeboots;
+	public static Item woolpinkhelmet;
+	public static Item woolpinkchestplate;
+	public static Item woolpinkleggings;
+	public static Item woolpinkboots;
+	public static Item woolredhelmet;
+	public static Item woolredchestplate;
+	public static Item woolredleggings;
+	public static Item woolredboots;
 	
 	public static void init() {
 		flour = new Flour();
@@ -77,6 +88,26 @@ public class ItemsHandler {
 		terilliumsword = new TerilliumSword(null, ToolMaterials.terilliumMat);
 		blazecoal = new BlazeCoal();
 		kitchenknife = new KitchenKnife(null, ToolMaterial.STONE);
+		woolblackhelmet = new WoolBlackHelmet(ArmorMaterials.woolblackMat, 3, EntityEquipmentSlot.HEAD);
+		woolblackchestplate = new WoolBlackChestPlate(ArmorMaterials.woolblackMat, 3,EntityEquipmentSlot.CHEST);
+		woolblackleggings = new WoolBlackLeggings(ArmorMaterials.woolblackMat, 3, EntityEquipmentSlot.LEGS);
+		woolblackboots = new WoolBlackBoots(ArmorMaterials.woolblackMat, 3, EntityEquipmentSlot.FEET);
+		woollightbluehelmet = new WoolLightBlueHelmet(ArmorMaterials.woollightblueMat, 3, EntityEquipmentSlot.HEAD);
+		woollightbluechestplate = new WoolLightBlueChestPlate(ArmorMaterials.woollightblueMat, 3, EntityEquipmentSlot.CHEST);
+		woollightblueleggings = new WoolLightBlueLeggings(ArmorMaterials.woollightblueMat, 3, EntityEquipmentSlot.LEGS);
+		woollightblueboots = new WoolLightBlueBoots(ArmorMaterials.woollightblueMat, 3, EntityEquipmentSlot.FEET);
+		woollimehelmet = new WoolLimeHelmet(ArmorMaterials.woollimeMat, 3, EntityEquipmentSlot.HEAD);
+		woollimechestplate = new WoolLimeChestPlate(ArmorMaterials.woollimeMat, 3, EntityEquipmentSlot.CHEST);
+		woollimeleggings = new WoolLimeLeggings(ArmorMaterials.woollimeMat, 3, EntityEquipmentSlot.LEGS);
+		woollimeboots = new WoolLimeBoots(ArmorMaterials.woollimeMat, 3, EntityEquipmentSlot.FEET);
+		woolpinkhelmet = new WoolPinkHelmet(ArmorMaterials.woolpinkMat, 3, EntityEquipmentSlot.HEAD);
+		woolpinkchestplate = new WoolPinkChestPlate(ArmorMaterials.woolpinkMat, 3, EntityEquipmentSlot.CHEST);
+		woolpinkleggings = new WoolPinkLeggings(ArmorMaterials.woolpinkMat, 3, EntityEquipmentSlot.LEGS);
+		woolpinkboots = new WoolPinkBoots(ArmorMaterials.woolpinkMat, 3, EntityEquipmentSlot.FEET);
+		woolredhelmet = new WoolRedHelmet(ArmorMaterials.woolredMat, 3, EntityEquipmentSlot.HEAD);
+		woolredchestplate = new WoolRedChestPlate(ArmorMaterials.woolredMat, 3, EntityEquipmentSlot.CHEST);
+		woolredleggings = new WoolRedLeggings(ArmorMaterials.woolredMat, 3, EntityEquipmentSlot.LEGS);
+		woolredboots = new WoolRedBoots(ArmorMaterials.woolredMat, 3, EntityEquipmentSlot.FEET);
 		
 	}
 	
@@ -102,6 +133,26 @@ public class ItemsHandler {
 		GameRegistry.register(terilliumsword);
 		GameRegistry.register(blazecoal);
 		GameRegistry.register(kitchenknife);
+		GameRegistry.register(woolblackhelmet);
+		GameRegistry.register(woolblackchestplate);
+		GameRegistry.register(woolblackleggings);
+		GameRegistry.register(woolblackboots);
+		GameRegistry.register(woollightbluehelmet);
+		GameRegistry.register(woollightbluechestplate);
+		GameRegistry.register(woollightblueleggings);
+		GameRegistry.register(woollightblueboots);
+		GameRegistry.register(woollimehelmet);
+		GameRegistry.register(woollimechestplate);
+		GameRegistry.register(woollimeleggings);
+		GameRegistry.register(woollimeboots);
+		GameRegistry.register(woolpinkhelmet);
+		GameRegistry.register(woolpinkchestplate);
+		GameRegistry.register(woolpinkleggings);
+		GameRegistry.register(woolpinkboots);
+		GameRegistry.register(woolredhelmet);
+		GameRegistry.register(woolredchestplate);
+		GameRegistry.register(woolredleggings);
+		GameRegistry.register(woolredboots);
 	}
 	
 	public static void registerRenders() {
@@ -126,6 +177,26 @@ public class ItemsHandler {
 		registerRender(terilliumsword);
 		registerRender(blazecoal);
 		registerRender(kitchenknife);
+		registerRender(woolblackhelmet);
+		registerRender(woolblackchestplate);
+		registerRender(woolblackleggings);
+		registerRender(woolblackboots);
+		registerRender(woollightbluehelmet);
+		registerRender(woollightbluechestplate);
+		registerRender(woollightblueleggings);
+		registerRender(woollightblueboots);
+		registerRender(woollimehelmet);
+		registerRender(woollimechestplate);
+		registerRender(woollimeleggings);
+		registerRender(woollimeboots);
+		registerRender(woolpinkhelmet);
+		registerRender(woolpinkchestplate);
+		registerRender(woolpinkleggings);
+		registerRender(woolpinkboots);
+		registerRender(woolredhelmet);
+		registerRender(woolredchestplate);
+		registerRender(woolredleggings);
+		registerRender(woolredboots);
 	}
 	
 	private static void registerRender(Item item) {
@@ -135,6 +206,23 @@ public class ItemsHandler {
 	public static class ArmorMaterials {
 		
 		public static final ItemArmor.ArmorMaterial terilliumMat = EnumHelper.addArmorMaterial("terilliumMat", MainHandler.MODID + ":terilliumarmor", 25, new int[]{2, 5, 7 ,2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F);
+		public static final ItemArmor.ArmorMaterial woolwhiteMat = EnumHelper.addArmorMaterial("woolwhiteMat", MainHandler.MODID + ":white_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woolorangeMat = EnumHelper.addArmorMaterial("woolorangeMat", MainHandler.MODID + ":orange_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woolmagentaMat = EnumHelper.addArmorMaterial("woolmagentaMat", MainHandler.MODID + ":magenta_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woollightblueMat = EnumHelper.addArmorMaterial("woollightblueMat", MainHandler.MODID + ":light_blue_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woolyellowMat = EnumHelper.addArmorMaterial("woolyellowMat", MainHandler.MODID + ":yellow_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woollimeMat = EnumHelper.addArmorMaterial("woollimeMat", MainHandler.MODID + ":lime_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woolpinkMat = EnumHelper.addArmorMaterial("woolpinkMat", MainHandler.MODID + ":pink_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woolgrayMat = EnumHelper.addArmorMaterial("woolgrayMat", MainHandler.MODID + ":gray_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woollightgrayMat = EnumHelper.addArmorMaterial("woollightgrayMat", MainHandler.MODID + ":light_gray_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woolcyanMat = EnumHelper.addArmorMaterial("woolcyanMat", MainHandler.MODID + ":cyan_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woolpurpleMat = EnumHelper.addArmorMaterial("woolpurpleMat", MainHandler.MODID + ":purple_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woolblueMat = EnumHelper.addArmorMaterial("woolblueMat", MainHandler.MODID + ":blue_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woolbrownMat = EnumHelper.addArmorMaterial("woolbrownMat", MainHandler.MODID + ":brown_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woolgreenMat = EnumHelper.addArmorMaterial("woolgreenMat", MainHandler.MODID + ":green_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woolredMat = EnumHelper.addArmorMaterial("woolredMat", MainHandler.MODID + ":red_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+		public static final ItemArmor.ArmorMaterial woolblackMat = EnumHelper.addArmorMaterial("woolblackMat", MainHandler.MODID + ":black_wool_armor", 25, new int[]{1, 2, 4 ,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.5F);
+
 	}
 	
 	public static class ToolMaterials {
